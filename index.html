@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Campus Lost Property Office: log found items and lost-item enquiries, and record when items are returned.">
+  <title>Lost Property Office</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <p class="site-name"><span class="logo" aria-hidden="true">LP</span> Lost Property Office</p>
+      <nav class="site-nav" id="site-nav" aria-label="Main" hidden>
+        <ul>
+          <li><a href="#/home" data-nav="home">Home</a></li>
+          <li><a href="#/log" data-nav="log">Log an item</a></li>
+          <li><a href="#/records" data-nav="records">Records</a></li>
+        </ul>
+      </nav>
+      <div class="staff-box" id="staff-box" hidden>
+        <p class="staff-name" id="staff-label"></p>
+        <button type="button" class="button button--quiet-on-dark" id="sign-out">Sign out</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- One polite live region for status messages (WCAG 4.1.3) -->
+  <div id="announcer" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <main id="main" class="wrap" tabindex="-1">
+
+    <!-- ===================== SIGN IN ===================== -->
+    <section class="view" id="view-signin" aria-labelledby="signin-title" hidden>
+      <h1 id="signin-title" tabindex="-1">Sign in</h1>
+      <p class="lead">Sign in to log found items, take lost-item enquiries and return items to their owners.</p>
+
+      <div class="error-summary" id="signin-errors" tabindex="-1" hidden></div>
+
+      <form id="signin-form" class="card narrow" novalidate>
+        <div class="field" id="staffName-group">
+          <label for="staffName">Staff name</label>
+          <p class="error-message" id="staffName-error"></p>
+          <input id="staffName" name="staffName" type="text" autocomplete="username" spellcheck="false" aria-describedby="staffName-error">
+        </div>
+
+        <div class="field" id="password-group">
+          <label for="password">Password</label>
+          <p class="hint" id="password-hint">At least 4 characters.</p>
+          <p class="error-message" id="password-error"></p>
+          <input id="password" name="password" type="password" autocomplete="current-password" aria-describedby="password-hint password-error">
+          <div class="check check--small">
+            <input type="checkbox" id="show-password">
+            <label for="show-password">Show password</label>
+          </div>
+        </div>
+
+        <fieldset class="field" id="role-group">
+          <legend>Your role</legend>
+          <p class="hint" id="role-hint">Supervisors can also mark unclaimed items as disposed.</p>
+          <div class="radio">
+            <input type="radio" id="role-desk" name="role" value="Desk assistant" aria-describedby="role-hint" checked>
+            <label for="role-desk">Desk assistant</label>
+          </div>
+          <div class="radio">
+            <input type="radio" id="role-supervisor" name="role" value="Supervisor" aria-describedby="role-hint">
+            <label for="role-supervisor">Supervisor</label>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="button" id="signin-button">Sign in</button>
+      </form>
+      <p class="hint">Demo system: any staff name and a password of 4 or more characters will sign you in.</p>
+    </section>
+
+    <!-- ===================== HOME ===================== -->
+    <section class="view" id="view-home" aria-labelledby="home-title" hidden>
+      <h1 id="home-title" tabindex="-1">Home</h1>
+      <p class="lead" id="home-welcome"></p>
+
+      <h2>At a glance</h2>
+      <p class="hint">Select a number to see those records.</p>
+      <ul class="tiles" id="home-tiles"></ul>
+
+      <div class="two-col">
+        <div>
+          <h2>Needs attention</h2>
+          <p class="hint" id="attention-hint">Found items that have been in storage for more than 30 days.</p>
+          <div id="attention-list"></div>
+        </div>
+        <div>
+          <h2>Recently logged</h2>
+          <ol class="plain-list" id="recent-list"></ol>
+        </div>
+      </div>
+
+      <h2>Quick actions</h2>
+      <ul class="action-row">
+        <li><a class="button" href="#/log?kind=found">Log a found item</a></li>
+        <li><a class="button" href="#/log?kind=lost">Take a lost-item enquiry</a></li>
+        <li><a class="button button--secondary" href="#/records">Search records</a></li>
+      </ul>
+    </section>
+
+    <!-- ===================== LOG AN ITEM ===================== -->
+    <section class="view" id="view-log" aria-labelledby="log-title" hidden>
+      <h1 id="log-title" tabindex="-1">Log an item</h1>
+      <p>All fields are required unless they say <em>optional</em>.</p>
+
+      <div class="notice notice--success" id="log-success" tabindex="-1" hidden></div>
+      <div class="error-summary" id="log-errors" tabindex="-1" hidden></div>
+
+      <form id="log-form" class="card" novalidate>
+        <fieldset class="field" id="kind-group">
+          <legend>What are you logging?</legend>
+          <p class="error-message" id="kind-error"></p>
+          <div class="radio">
+            <input type="radio" id="kind-found" name="kind" value="found" checked>
+            <label for="kind-found">A found item that has been handed in</label>
+          </div>
+          <div class="radio">
+            <input type="radio" id="kind-lost" name="kind" value="lost">
+            <label for="kind-lost">A lost-item enquiry from the owner</label>
+          </div>
+        </fieldset>
+
+        <div class="field" id="title-group">
+          <label for="title">Item description</label>
+          <p class="hint" id="title-hint">Colour, brand and anything distinctive. For example: black Nike backpack with red zip.</p>
+          <p class="error-message" id="title-error"></p>
+          <input id="title" name="title" type="text" maxlength="80" aria-describedby="title-hint title-error">
+        </div>
+
+        <div class="field" id="category-group">
+          <label for="category">Category</label>
+          <p class="error-message" id="category-error"></p>
+          <select id="category" name="category" aria-describedby="category-error">
+            <option value="">Select a category</option>
+            <option>Phones and electronics</option>
+            <option>Bags</option>
+            <option>Keys</option>
+            <option>Cards and ID</option>
+            <option>Clothing</option>
+            <option>Books and stationery</option>
+            <option>Jewellery and watches</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <!-- Appears only when Category = Other -->
+        <div class="field conditional" id="otherCategory-group" hidden>
+          <label for="otherCategory">What kind of item is it?</label>
+          <p class="error-message" id="otherCategory-error"></p>
+          <input id="otherCategory" name="otherCategory" type="text" maxlength="40" aria-describedby="otherCategory-error">
+        </div>
+
+        <div class="field" id="locationChoice-group">
+          <label for="locationChoice" id="location-label">Where was it found?</label>
+          <p class="error-message" id="locationChoice-error"></p>
+          <select id="locationChoice" name="locationChoice" aria-describedby="locationChoice-error">
+            <option value="">Select a place</option>
+            <option>Library</option>
+            <option>Main hall</option>
+            <option>Cafeteria</option>
+            <option>Lecture theatre 1</option>
+            <option>Lecture theatre 2</option>
+            <option>Computer lab</option>
+            <option>Exam hall</option>
+            <option>Sports centre</option>
+            <option>Gym changing room</option>
+            <option>Student union</option>
+            <option>Car park</option>
+            <option>Bus stop</option>
+            <option value="elsewhere">Somewhere else</option>
+          </select>
+        </div>
+
+        <!-- Appears only when location = Somewhere else -->
+        <div class="field conditional" id="locationOther-group" hidden>
+          <label for="locationOther">Describe the place</label>
+          <p class="error-message" id="locationOther-error"></p>
+          <input id="locationOther" name="locationOther" type="text" maxlength="80" aria-describedby="locationOther-error">
+        </div>
+
+        <div class="field" id="date-group">
+          <label for="date" id="date-label">Date found</label>
+          <p class="hint" id="date-hint">Today's date is filled in for you.</p>
+          <p class="error-message" id="date-error"></p>
+          <input id="date" name="date" type="date" class="input--date" aria-describedby="date-hint date-error">
+        </div>
+
+        <!-- Section that changes with the report type -->
+        <div id="found-section" class="subsection">
+          <h2 class="subsection-title">Storage</h2>
+          <div class="field" id="shelf-group">
+            <label for="shelf">Where is it being stored?</label>
+            <p class="hint" id="shelf-hint">Valuable items must go in the safe.</p>
+            <p class="error-message" id="shelf-error"></p>
+            <select id="shelf" name="shelf" aria-describedby="shelf-hint shelf-error">
+              <option value="">Select a shelf</option>
+              <option>A1</option><option>A2</option><option>A3</option>
+              <option>B1</option><option>B2</option><option>B3</option>
+              <option>C1</option><option>C2</option>
+              <option value="Safe">Safe (valuables)</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="lost-section" class="subsection" hidden>
+          <h2 class="subsection-title">Owner's details</h2>
+          <div class="field" id="owner-group">
+            <label for="owner">Owner's full name</label>
+            <p class="error-message" id="owner-error"></p>
+            <input id="owner" name="owner" type="text" maxlength="60" autocomplete="off" aria-describedby="owner-error">
+          </div>
+          <div class="field" id="contact-group">
+            <label for="contact">Email address or phone number</label>
+            <p class="hint" id="contact-hint">So we can tell them if the item is handed in.</p>
+            <p class="error-message" id="contact-error"></p>
+            <input id="contact" name="contact" type="text" maxlength="80" autocomplete="off" aria-describedby="contact-hint contact-error">
+          </div>
+        </div>
+
+        <fieldset class="field" id="flags-group">
+          <legend>Anything to flag? (optional)</legend>
+          <p class="hint" id="flags-hint">Select all that apply.</p>
+          <div class="check">
+            <input type="checkbox" id="flag-valuable" name="flags" value="Valuable" aria-describedby="flags-hint">
+            <label for="flag-valuable">Valuable (over £50)</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="flag-id" name="flags" value="Contains ID or bank cards" aria-describedby="flags-hint">
+            <label for="flag-id">Contains ID or bank cards</label>
+          </div>
+        </fieldset>
+
+        <div class="field" id="notes-group">
+          <label for="notes">Notes (optional)</label>
+          <p class="hint" id="notes-count">You can enter up to 300 characters.</p>
+          <textarea id="notes" name="notes" rows="3" maxlength="300" aria-describedby="notes-count"></textarea>
+        </div>
+
+        <div class="button-row">
+          <button type="submit" class="button" id="log-submit">Save found item</button>
+          <button type="reset" class="button button--secondary" id="log-clear">Clear form</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ===================== RECORDS ===================== -->
+    <section class="view" id="view-records" aria-labelledby="records-title" hidden>
+      <h1 id="records-title" tabindex="-1">Records</h1>
+
+      <form class="filters card" id="filters" role="search" aria-label="Search and filter records">
+        <div class="field field--grow">
+          <label for="f-search">Search</label>
+          <p class="hint" id="f-search-hint">Reference, description, place or owner's name</p>
+          <input id="f-search" type="search" aria-describedby="f-search-hint" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="f-kind">Type</label>
+          <select id="f-kind"><option value="">All types</option><option value="found">Found items</option><option value="lost">Lost enquiries</option></select>
+        </div>
+        <div class="field">
+          <label for="f-status">Status</label>
+          <select id="f-status"><option value="">All statuses</option><option>Open</option><option>Returned</option><option>Disposed</option></select>
+        </div>
+        <div class="field">
+          <label for="f-category">Category</label>
+          <select id="f-category">
+            <option value="">All categories</option>
+            <option>Phones and electronics</option><option>Bags</option><option>Keys</option><option>Cards and ID</option>
+            <option>Clothing</option><option>Books and stationery</option><option>Jewellery and watches</option><option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-sort">Sort by</label>
+          <select id="f-sort">
+            <option value="date:desc">Date, newest first</option>
+            <option value="date:asc">Date, oldest first</option>
+            <option value="title:asc">Description, A to Z</option>
+            <option value="ref:asc">Reference, lowest first</option>
+            <option value="status:asc">Status, A to Z</option>
+            <option value="location:asc">Place, A to Z</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-size">Rows per page</label>
+          <select id="f-size"><option>10</option><option>25</option><option>50</option></select>
+        </div>
+        <div class="field field--end">
+          <button type="button" class="button button--secondary" id="f-clear">Clear filters</button>
+        </div>
+      </form>
+
+      <p class="result-count" id="result-count" tabindex="-1"></p>
+      <p class="loading" id="records-loading" hidden><span class="spinner" aria-hidden="true"></span> Loading records…</p>
+      <div class="notice notice--error" id="records-error" tabindex="-1" hidden></div>
+
+      <div class="empty" id="records-empty" hidden>
+        <h2>No records match</h2>
+        <p>Check the spelling, or clear the filters to see every record.</p>
+        <button type="button" class="button button--secondary" id="empty-clear">Clear filters</button>
+      </div>
+
+      <!-- role="table" and role="row" are deliberate: on phones main.css turns this table into cards with
+           display:block, which makes some browsers drop the table semantics. The roles put them back. -->
+      <table class="records-table" id="records-table" role="table">
+        <caption class="visually-hidden">Lost property records. Column headers with buttons can be sorted.</caption>
+        <thead><tr role="row" id="records-head"></tr></thead>
+        <tbody id="records-body"></tbody>
+      </table>
+
+      <nav class="pagination" id="pagination" aria-label="Pages of records"></nav>
+    </section>
+
+    <!-- ===================== RECORD DETAIL ===================== -->
+    <!-- aria-labelledby is added by app.js once the record heading exists (fixes a broken reference while loading) -->
+    <section class="view" id="view-record" hidden>
+      <p><a href="#/records" class="back-link">Back to records</a></p>
+      <p class="loading" id="record-loading" hidden><span class="spinner" aria-hidden="true"></span> Loading record…</p>
+      <div id="record-content"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Lost Property Office · Accessibility and Usability coursework 2 · Built to WCAG 2.1 AA</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

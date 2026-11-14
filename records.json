@@ -1,0 +1,4579 @@
+[
+  {
+    "id": 1,
+    "ref": "LF-0001",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-11-12",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "ref": "LF-0002",
+    "kind": "found",
+    "title": "Samsung Galaxy phone, blue case",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-11-13",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-13T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "ref": "LF-0003",
+    "kind": "lost",
+    "title": "Silver house keys on red lanyard",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Sports centre",
+    "date": "2026-11-11",
+    "shelf": "",
+    "owner": "Amira Hassan",
+    "contact": "amira.h@example.ac.uk",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-11T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "ref": "LF-0004",
+    "kind": "found",
+    "title": "Student ID card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-11-09",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-09T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-09T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "ref": "LF-0005",
+    "kind": "found",
+    "title": "Grey wool scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-11-08",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "ref": "LF-0006",
+    "kind": "found",
+    "title": "Blue water bottle",
+    "category": "Other",
+    "otherCategory": "Drink bottle",
+    "location": "Sports centre",
+    "date": "2026-11-06",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-06T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "ref": "LF-0007",
+    "kind": "lost",
+    "title": "Black leather wallet",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-11-12",
+    "shelf": "",
+    "owner": "Tom Reid",
+    "contact": "07700 900123",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "ref": "LF-0008",
+    "kind": "found",
+    "title": "Casio calculator",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-11-05",
+    "shelf": "B1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-05T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-05T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "ref": "LF-0009",
+    "kind": "found",
+    "title": "Brown backpack with laptop charger",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Library",
+    "date": "2026-11-02",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-02T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "ref": "LF-0010",
+    "kind": "found",
+    "title": "Gold ring",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-11-10",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "ref": "LF-0011",
+    "kind": "lost",
+    "title": "AirPods in white case",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Library",
+    "date": "2026-11-13",
+    "shelf": "",
+    "owner": "Lina Farouk",
+    "contact": "lina.f@example.ac.uk",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-13T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "ref": "LF-0012",
+    "kind": "found",
+    "title": "Maths textbook (Calculus, 8th ed.)",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Lecture theatre 1",
+    "date": "2026-10-30",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-30T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "ref": "LF-0013",
+    "kind": "found",
+    "title": "Navy hoodie, size M",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-10-25",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-25T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "ref": "LF-0014",
+    "kind": "found",
+    "title": "Single car key (Toyota)",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-11-07",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-07T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-07T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "ref": "LF-0015",
+    "kind": "lost",
+    "title": "Purple pencil case",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-11-04",
+    "shelf": "",
+    "owner": "Sam Okafor",
+    "contact": "s.okafor@example.ac.uk",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-04T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "ref": "LF-0016",
+    "kind": "found",
+    "title": "Reading glasses in black case",
+    "category": "Other",
+    "otherCategory": "Glasses",
+    "location": "Cafeteria",
+    "date": "2026-10-10",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "ref": "LF-0017",
+    "kind": "found",
+    "title": "Wireless mouse",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-10-05",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-05T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "ref": "LF-0018",
+    "kind": "found",
+    "title": "Tote bag with notebooks",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-09-30",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-30T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-30T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "ref": "LF-0019",
+    "kind": "found",
+    "title": "Wristwatch, leather strap",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-11-03",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-03T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "ref": "LF-0020",
+    "kind": "lost",
+    "title": "Green umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Main hall",
+    "date": "2026-11-10",
+    "shelf": "",
+    "owner": "Dana Lee",
+    "contact": "07700 900456",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-10T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "ref": "LF-0021",
+    "kind": "found",
+    "title": "Bank card (name visible)",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Library",
+    "date": "2026-11-14",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-14T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "ref": "LF-0022",
+    "kind": "found",
+    "title": "USB memory stick, 32 GB",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-11-01",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-01T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "ref": "LF-0023",
+    "kind": "found",
+    "title": "Denim jacket",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-10-12",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "ref": "LF-0024",
+    "kind": "lost",
+    "title": "Laptop sleeve, grey",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Library",
+    "date": "2026-11-08",
+    "shelf": "",
+    "owner": "Omar Said",
+    "contact": "omar.s@example.ac.uk",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "ref": "LF-0025",
+    "kind": "found",
+    "title": "Bicycle lock key",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Bike shelter",
+    "date": "2026-10-27",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-27T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "ref": "LF-0026",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-11-12",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-12T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "ref": "LF-0027",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-11-05",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-05T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "ref": "LF-0028",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-10-29",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-29T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "ref": "LF-0029",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-10-22",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-22T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "ref": "LF-0030",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-10-15",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-15T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-15T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "ref": "LF-0031",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-10-08",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "ref": "LF-0032",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-10-01",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-01T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "ref": "LF-0033",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-09-24",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-24T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "ref": "LF-0034",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-09-17",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-17T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-17T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "ref": "LF-0035",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-09-10",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "ref": "LF-0036",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-09-03",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-03T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-03T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "ref": "LF-0037",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-08-27",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-27T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-27T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "ref": "LF-0038",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-08-20",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-20T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "ref": "LF-0039",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-11-11",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-11T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "ref": "LF-0040",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-11-04",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-04T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "ref": "LF-0041",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-10-28",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-28T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "ref": "LF-0042",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-10-21",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-21T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-21T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "ref": "LF-0043",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-10-14",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-14T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "ref": "LF-0044",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-10-07",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-07T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "ref": "LF-0045",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-09-30",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-30T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "ref": "LF-0046",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-09-23",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-23T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-23T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "ref": "LF-0047",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-09-16",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-16T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "ref": "LF-0048",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-09-09",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-09T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-09T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "ref": "LF-0049",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-09-02",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-02T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-02T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "ref": "LF-0050",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-08-26",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-26T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "ref": "LF-0051",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-08-19",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-19T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-19T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "ref": "LF-0052",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-11-10",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "ref": "LF-0053",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-11-03",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-03T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "ref": "LF-0054",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-10-27",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-27T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-27T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "ref": "LF-0055",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-10-20",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-20T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "ref": "LF-0056",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-10-13",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-13T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "ref": "LF-0057",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-10-06",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-06T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "ref": "LF-0058",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-09-29",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-29T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-29T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "ref": "LF-0059",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-09-22",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-22T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "ref": "LF-0060",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-09-15",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-15T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "ref": "LF-0061",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-09-08",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-08T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "ref": "LF-0062",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-09-01",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-01T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "ref": "LF-0063",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-08-25",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-25T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-25T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "ref": "LF-0064",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-08-18",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-18T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-18T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "ref": "LF-0065",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-11-09",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-09T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "ref": "LF-0066",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-11-02",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-02T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-02T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "ref": "LF-0067",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-10-26",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-26T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "ref": "LF-0068",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-10-19",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-19T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "ref": "LF-0069",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-10-12",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "ref": "LF-0070",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-10-05",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-05T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-05T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "ref": "LF-0071",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-09-28",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-28T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "ref": "LF-0072",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-09-21",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-21T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "ref": "LF-0073",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-09-14",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-14T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-14T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "ref": "LF-0074",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-09-07",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-07T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "ref": "LF-0075",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-08-31",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-31T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-31T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "ref": "LF-0076",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-08-24",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-24T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-24T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "ref": "LF-0077",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-08-17",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-17T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "ref": "LF-0078",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-11-08",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-08T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "ref": "LF-0079",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-11-01",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-01T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "ref": "LF-0080",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-10-25",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-25T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "ref": "LF-0081",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-10-18",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-18T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "ref": "LF-0082",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-10-11",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-11T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-11T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "ref": "LF-0083",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-10-04",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-04T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "ref": "LF-0084",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-09-27",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-27T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "ref": "LF-0085",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-09-20",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-20T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "ref": "LF-0086",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-09-13",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-13T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "ref": "LF-0087",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-09-06",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-06T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-06T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "ref": "LF-0088",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-08-30",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-30T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-30T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "ref": "LF-0089",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-08-23",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-23T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "ref": "LF-0090",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-08-16",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-16T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-16T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "ref": "LF-0091",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-11-07",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-07T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "ref": "LF-0092",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-10-31",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-31T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "ref": "LF-0093",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-10-24",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-24T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "ref": "LF-0094",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-10-17",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-17T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-17T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "ref": "LF-0095",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-10-10",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "ref": "LF-0096",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-10-03",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-03T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "ref": "LF-0097",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-09-26",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-26T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "ref": "LF-0098",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-09-19",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-19T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-19T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "ref": "LF-0099",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-09-12",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-12T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "ref": "LF-0100",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-09-05",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-05T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-05T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "ref": "LF-0101",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-08-29",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-29T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "ref": "LF-0102",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-08-22",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-22T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-22T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "ref": "LF-0103",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-08-15",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-15T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-15T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "ref": "LF-0104",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-11-06",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-06T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "ref": "LF-0105",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-10-30",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-30T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "ref": "LF-0106",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-10-23",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-23T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-23T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "ref": "LF-0107",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-10-16",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-16T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "ref": "LF-0108",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-10-09",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-09T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "ref": "LF-0109",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-10-02",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-02T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "ref": "LF-0110",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-09-25",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-25T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-25T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "ref": "LF-0111",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-09-18",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-18T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "ref": "LF-0112",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-09-11",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-11T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-11T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "ref": "LF-0113",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-09-04",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-04T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "ref": "LF-0114",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-08-28",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-28T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-28T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "ref": "LF-0115",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-08-21",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-21T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-21T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "ref": "LF-0116",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-11-12",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "ref": "LF-0117",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-11-05",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-05T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "ref": "LF-0118",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-10-29",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-29T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-29T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "ref": "LF-0119",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-10-22",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-22T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "ref": "LF-0120",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-10-15",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-15T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "ref": "LF-0121",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-10-08",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "ref": "LF-0122",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-10-01",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-01T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-01T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "ref": "LF-0123",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-09-24",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-24T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "ref": "LF-0124",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-09-17",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-17T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "ref": "LF-0125",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-09-10",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "ref": "LF-0126",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-09-03",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-03T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-03T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "ref": "LF-0127",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-08-27",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-27T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-27T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "ref": "LF-0128",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-08-20",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-20T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "ref": "LF-0129",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-11-11",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-11T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "ref": "LF-0130",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-11-04",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-04T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-04T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "ref": "LF-0131",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-10-28",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-28T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "ref": "LF-0132",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-10-21",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-21T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "ref": "LF-0133",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-10-14",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-14T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "ref": "LF-0134",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-10-07",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-07T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-07T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "ref": "LF-0135",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-09-30",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-30T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "ref": "LF-0136",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-09-23",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-23T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "ref": "LF-0137",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-09-16",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-16T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "ref": "LF-0138",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-09-09",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-09T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-09T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "ref": "LF-0139",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-09-02",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-02T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-02T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "ref": "LF-0140",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-08-26",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-26T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "ref": "LF-0141",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-08-19",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-19T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-19T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "ref": "LF-0142",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-11-10",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-11-10T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-11-10T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "ref": "LF-0143",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-11-03",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-03T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "ref": "LF-0144",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-10-27",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-27T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "ref": "LF-0145",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-10-20",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-20T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "ref": "LF-0146",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-10-13",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-13T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-13T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "ref": "LF-0147",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-10-06",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-06T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "ref": "LF-0148",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-09-29",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-29T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "ref": "LF-0149",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-09-22",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-22T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "ref": "LF-0150",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-09-15",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-15T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-15T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "ref": "LF-0151",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-09-08",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-08T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "ref": "LF-0152",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-09-01",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-01T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "ref": "LF-0153",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-08-25",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-25T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-25T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "ref": "LF-0154",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-08-18",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-18T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-18T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "ref": "LF-0155",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-11-09",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-09T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "ref": "LF-0156",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-11-02",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-02T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "ref": "LF-0157",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-10-26",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-26T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "ref": "LF-0158",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-10-19",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-19T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-19T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "ref": "LF-0159",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-10-12",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-12T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "ref": "LF-0160",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-10-05",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-05T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "ref": "LF-0161",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-09-28",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-28T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "ref": "LF-0162",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-09-21",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-21T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-21T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "ref": "LF-0163",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-09-14",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-14T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-14T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "ref": "LF-0164",
+    "kind": "found",
+    "title": "Black gloves",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Exam hall",
+    "date": "2026-09-07",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-07T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "ref": "LF-0165",
+    "kind": "found",
+    "title": "Small grey backpack",
+    "category": "Bags",
+    "otherCategory": "",
+    "location": "Bus stop",
+    "date": "2026-08-31",
+    "shelf": "C1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-31T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-31T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "ref": "LF-0166",
+    "kind": "found",
+    "title": "Library card",
+    "category": "Cards and ID",
+    "otherCategory": "",
+    "location": "Lecture theatre 2",
+    "date": "2026-08-24",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Contains ID or bank cards"
+    ],
+    "notes": "",
+    "status": "Disposed",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-24T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-08-24T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as disposed"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "ref": "LF-0167",
+    "kind": "found",
+    "title": "Set of two keys on a ring",
+    "category": "Keys",
+    "otherCategory": "",
+    "location": "Student union",
+    "date": "2026-08-17",
+    "shelf": "A3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-08-17T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "ref": "LF-0168",
+    "kind": "found",
+    "title": "Silver bracelet",
+    "category": "Jewellery and watches",
+    "otherCategory": "",
+    "location": "Cafeteria",
+    "date": "2026-11-08",
+    "shelf": "Safe",
+    "owner": "",
+    "contact": "",
+    "flags": [
+      "Valuable"
+    ],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-08T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "ref": "LF-0169",
+    "kind": "found",
+    "title": "Lunch box",
+    "category": "Other",
+    "otherCategory": "Food container",
+    "location": "Sports centre",
+    "date": "2026-11-01",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-11-01T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "ref": "LF-0170",
+    "kind": "found",
+    "title": "Black umbrella",
+    "category": "Other",
+    "otherCategory": "Umbrella",
+    "location": "Library",
+    "date": "2026-10-25",
+    "shelf": "A1",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-10-25T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-10-25T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "ref": "LF-0171",
+    "kind": "found",
+    "title": "Phone charger cable",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Computer lab",
+    "date": "2026-10-18",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-18T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "ref": "LF-0172",
+    "kind": "found",
+    "title": "Red scarf",
+    "category": "Clothing",
+    "otherCategory": "",
+    "location": "Car park",
+    "date": "2026-10-11",
+    "shelf": "B2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-11T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "ref": "LF-0173",
+    "kind": "found",
+    "title": "Reusable coffee cup",
+    "category": "Other",
+    "otherCategory": "Cup",
+    "location": "Lecture theatre 1",
+    "date": "2026-10-04",
+    "shelf": "A2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-10-04T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "ref": "LF-0174",
+    "kind": "found",
+    "title": "Lecture notes in a blue folder",
+    "category": "Books and stationery",
+    "otherCategory": "",
+    "location": "Gym changing room",
+    "date": "2026-09-27",
+    "shelf": "B3",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Returned",
+    "returnedTo": "Owner (ID checked)",
+    "history": [
+      {
+        "at": "2026-09-27T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      },
+      {
+        "at": "2026-09-27T15:00:00",
+        "by": "Seed data",
+        "action": "Marked as returned"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "ref": "LF-0175",
+    "kind": "found",
+    "title": "Earphones, wired",
+    "category": "Phones and electronics",
+    "otherCategory": "",
+    "location": "Main hall",
+    "date": "2026-09-20",
+    "shelf": "C2",
+    "owner": "",
+    "contact": "",
+    "flags": [],
+    "notes": "",
+    "status": "Open",
+    "returnedTo": "",
+    "history": [
+      {
+        "at": "2026-09-20T10:00:00",
+        "by": "Seed data",
+        "action": "Record created"
+      }
+    ]
+  }
+]
